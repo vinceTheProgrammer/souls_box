@@ -1,0 +1,139 @@
+{
+  "__guid": "c3530f58-a961-422f-88d6-257e78fdd501",
+  "GameObjects": [
+    {
+      "__guid": "c4d1cd90-ac61-46a0-9746-df32815f79a3",
+      "Flags": 0,
+      "Name": "Sun",
+      "Position": "2897.656,-1881.403,1170.395",
+      "Rotation": "-0.1035534,0.7865661,-0.07945932,0.6035535",
+      "Tags": "light_directional,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "9112af88-eeb9-4503-be84-a4981ff70c92",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": true,
+          "SkyColor": "0.05882,0.07451,0.08235,1"
+        }
+      ]
+    },
+    {
+      "__guid": "8cf178e8-63f5-4fd5-bd84-87ca7fac5f18",
+      "Flags": 0,
+      "Name": "player",
+      "Enabled": true,
+      "__Prefab": "prefabs/player.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "f5733984-4fc7-44ff-a13c-063e2a09e86c",
+      "Flags": 0,
+      "Name": "chest",
+      "Position": "115.2345,-288,0",
+      "Enabled": true,
+      "__Prefab": "prefabs/chest.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "00d4b81e-c2fd-4a9a-aa4f-62c4f211ac52",
+      "Flags": 0,
+      "Name": "npc",
+      "Position": "128,0,0",
+      "Enabled": true,
+      "__Prefab": "prefabs/npc.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "0dc364d0-1fe5-4c4a-b828-6b1f87fdbf80",
+      "Flags": 0,
+      "Name": "Plane",
+      "Scale": "30.6,30.50003,1",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "5d83a681-b9a4-4260-a976-af03fb6d4d56",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/plane.vmdl",
+          "RenderType": "Off",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.PlaneCollider",
+          "__guid": "98262d93-f63c-4906-9dd7-37fc6dc112bc",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "99.39994,99.99995",
+          "Static": true
+        }
+      ]
+    },
+    {
+      "__guid": "5f3c45e2-3f32-4bfa-a47a-3c11e5c9060f",
+      "Flags": 0,
+      "Name": "Cube",
+      "Position": "481.537,-18.93576,57.63331",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "1ba22af1-174b-4770-818b-4586ab298fc9",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "ea92849d-12ab-49fd-9a2f-68d9ab1266da",
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "e88653bb-2f0e-4996-a645-ee1f390698f1",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "testing",
+  "Description": "",
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

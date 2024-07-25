@@ -1,0 +1,91 @@
+{
+  "RootObject": {
+    "__guid": "e900ccff-1372-4439-a8b6-48afc9afb2e7",
+    "Flags": 0,
+    "Name": "enemy",
+    "Enabled": true,
+    "Children": [
+      {
+        "__guid": "bac041b7-d27c-40aa-8df3-674dc303e4aa",
+        "Flags": 0,
+        "Name": "Character",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.SkinnedModelRenderer",
+            "__guid": "b9e11b14-9969-447c-8341-51e6ebd4cbd8",
+            "BodyGroups": 341,
+            "CreateBoneObjects": false,
+            "Model": "models/citizen/citizen.vmdl",
+            "RenderType": "On",
+            "Tint": "1,1,1,1",
+            "UseAnimGraph": true
+          },
+          {
+            "__type": "Sandbox.Citizen.CitizenAnimationHelper",
+            "__guid": "ef2cab8c-4f71-4eff-9949-2f697ccd8265",
+            "BodyWeight": 1,
+            "EyesWeight": 1,
+            "HeadWeight": 1,
+            "LookAtEnabled": false,
+            "Target": {
+              "_type": "component",
+              "component_id": "b9e11b14-9969-447c-8341-51e6ebd4cbd8",
+              "go": "bac041b7-d27c-40aa-8df3-674dc303e4aa",
+              "component_type": "SkinnedModelRenderer"
+            }
+          },
+          {
+            "__type": "Sandbox.CharacterController",
+            "__guid": "ae782510-a9df-4f45-a3fd-30714a945ec8",
+            "Acceleration": 10,
+            "Bounciness": 0.3,
+            "GroundAngle": 45,
+            "Height": 64,
+            "IgnoreLayers": "",
+            "Radius": 16,
+            "StepHeight": 18,
+            "UseCollisionRules": false
+          },
+          {
+            "__type": "SoulsBox.CharacterMovementController",
+            "__guid": "f3e451d7-ca9e-4e87-a354-8d2a83179a53",
+            "agent": {
+              "_type": "component",
+              "component_id": "7158296d-d01c-4c4c-86ad-9df69e8b4d35",
+              "go": "bac041b7-d27c-40aa-8df3-674dc303e4aa",
+              "component_type": "AgentAI"
+            },
+            "AnimationHelper": {
+              "_type": "component",
+              "component_id": "ef2cab8c-4f71-4eff-9949-2f697ccd8265",
+              "go": "bac041b7-d27c-40aa-8df3-674dc303e4aa",
+              "component_type": "CitizenAnimationHelper"
+            },
+            "BackstepForce": 0,
+            "CharacterController": {
+              "_type": "component",
+              "component_id": "ae782510-a9df-4f45-a3fd-30714a945ec8",
+              "go": "bac041b7-d27c-40aa-8df3-674dc303e4aa",
+              "component_type": "CharacterController"
+            },
+            "JumpForce": 0,
+            "RunSpeed": 320,
+            "WalkSpeed": 140
+          },
+          {
+            "__type": "SoulsBox.AgentAI",
+            "__guid": "7158296d-d01c-4c4c-86ad-9df69e8b4d35"
+          }
+        ]
+      }
+    ],
+    "__variables": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

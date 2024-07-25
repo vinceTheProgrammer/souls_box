@@ -1,0 +1,25 @@
+{
+  "RootObject": {
+    "__guid": "f5733984-4fc7-44ff-a13c-063e2a09e86c",
+    "Name": "chest",
+    "Position": "115.2345,-288,0",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "Components": [
+      {
+        "__type": "ModelRenderer",
+        "__guid": "76fc70cb-831a-4936-952c-b4dd86c587a4",
+        "BodyGroups": 18446744073709551615,
+        "Model": "models/dev/box.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__version": 1,
+  "__references": []
+}

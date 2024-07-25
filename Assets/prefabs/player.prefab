@@ -1,0 +1,160 @@
+{
+  "RootObject": {
+    "__guid": "8cf178e8-63f5-4fd5-bd84-87ca7fac5f18",
+    "Flags": 0,
+    "Name": "player",
+    "Enabled": true,
+    "Children": [
+      {
+        "__guid": "7939f25c-fc8e-40e2-a5ee-9c4d19784c3b",
+        "Flags": 0,
+        "Name": "Character",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "SoulsBox.AgentPlayer",
+            "__guid": "ea253347-1f2f-4df6-899c-8cf423f256d1",
+            "Camera": {
+              "_type": "gameobject",
+              "go": "cd6f6092-7049-4270-9f0b-b02c1af8758d"
+            },
+            "CameraController": {
+              "_type": "component",
+              "component_id": "f2c37b1b-6711-4dde-91cb-8648e2f9d2ba",
+              "go": "7939f25c-fc8e-40e2-a5ee-9c4d19784c3b",
+              "component_type": "CameraController"
+            }
+          },
+          {
+            "__type": "Sandbox.SkinnedModelRenderer",
+            "__guid": "b0ece41a-e77c-4f9d-8e45-7d3f4a8e4bb0",
+            "AnimationGraph": "modified/soulsboxcitizen.vanmgrph",
+            "BodyGroups": 341,
+            "CreateBoneObjects": false,
+            "Model": "modified/soulsboxcitizen.vmdl",
+            "RenderType": "On",
+            "Tint": "1,1,1,1",
+            "UseAnimGraph": true
+          },
+          {
+            "__type": "Sandbox.Citizen.CitizenAnimationHelper",
+            "__guid": "c61bb71c-d72d-4932-a211-71c9f7d5f2ac",
+            "BodyWeight": 1,
+            "EyesWeight": 1,
+            "HeadWeight": 1,
+            "LookAtEnabled": false,
+            "Target": {
+              "_type": "component",
+              "component_id": "b0ece41a-e77c-4f9d-8e45-7d3f4a8e4bb0",
+              "go": "7939f25c-fc8e-40e2-a5ee-9c4d19784c3b",
+              "component_type": "SkinnedModelRenderer"
+            }
+          },
+          {
+            "__type": "Sandbox.CharacterController",
+            "__guid": "7a04edd5-7a1c-4f9b-9bac-5f5ad309fa1d",
+            "Acceleration": 10,
+            "Bounciness": 0.3,
+            "GroundAngle": 45,
+            "Height": 64,
+            "IgnoreLayers": "",
+            "Radius": 16,
+            "StepHeight": 18,
+            "UseCollisionRules": false
+          },
+          {
+            "__type": "SoulsBox.CharacterMovementController",
+            "__guid": "68814b77-26b1-4420-a0e5-8c68cb2f04d0",
+            "agent": {
+              "_type": "component",
+              "component_id": "ea253347-1f2f-4df6-899c-8cf423f256d1",
+              "go": "7939f25c-fc8e-40e2-a5ee-9c4d19784c3b",
+              "component_type": "AgentPlayer"
+            },
+            "AnimationHelper": {
+              "_type": "component",
+              "component_id": "c61bb71c-d72d-4932-a211-71c9f7d5f2ac",
+              "go": "7939f25c-fc8e-40e2-a5ee-9c4d19784c3b",
+              "component_type": "CitizenAnimationHelper"
+            },
+            "BackstepForce": 0,
+            "CharacterController": {
+              "_type": "component",
+              "component_id": "7a04edd5-7a1c-4f9b-9bac-5f5ad309fa1d",
+              "go": "7939f25c-fc8e-40e2-a5ee-9c4d19784c3b",
+              "component_type": "CharacterController"
+            },
+            "JumpForce": 0,
+            "RunSpeed": 320,
+            "WalkSpeed": 140
+          },
+          {
+            "__type": "SoulsBox.CameraController",
+            "__guid": "f2c37b1b-6711-4dde-91cb-8648e2f9d2ba",
+            "Camera": {
+              "_type": "gameobject",
+              "go": "cd6f6092-7049-4270-9f0b-b02c1af8758d"
+            },
+            "CameraOffset": "-215,0,60",
+            "CameraPivot": {
+              "_type": "gameobject",
+              "go": "5f486ded-872c-48ab-9ac0-3d083a95b1f9"
+            }
+          }
+        ]
+      },
+      {
+        "__guid": "5f486ded-872c-48ab-9ac0-3d083a95b1f9",
+        "Flags": 0,
+        "Name": "CameraPivot",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "SoulsBox.CameraPivot",
+            "__guid": "f40919a4-4aaa-4f10-93b1-c1f329fb28b8",
+            "Player": {
+              "_type": "gameobject",
+              "go": "7939f25c-fc8e-40e2-a5ee-9c4d19784c3b"
+            }
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "cd6f6092-7049-4270-9f0b-b02c1af8758d",
+            "Flags": 0,
+            "Name": "Camera",
+            "Position": "-215,0,66",
+            "Tags": "maincamera",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.CameraComponent",
+                "__guid": "8223c5d4-2f77-44aa-ba23-800351617639",
+                "BackgroundColor": "0.33333,0.46275,0.52157,1",
+                "ClearFlags": "All",
+                "FieldOfView": 60,
+                "IsMainCamera": true,
+                "Orthographic": false,
+                "OrthographicHeight": 1204,
+                "Priority": 1,
+                "RenderExcludeTags": "",
+                "RenderTags": "",
+                "TargetEye": "None",
+                "Viewport": "0,0,1,1",
+                "ZFar": 10000,
+                "ZNear": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "__variables": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

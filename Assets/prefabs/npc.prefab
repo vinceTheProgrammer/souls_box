@@ -1,0 +1,51 @@
+{
+  "RootObject": {
+    "__guid": "00d4b81e-c2fd-4a9a-aa4f-62c4f211ac52",
+    "Name": "npc",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "Components": [
+      {
+        "__type": "SkinnedModelRenderer",
+        "__guid": "32f343d7-e16e-45df-a609-34a76dbf10cc",
+        "BodyGroups": 341,
+        "CreateBoneObjects": false,
+        "Model": "models/citizen/citizen.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "CitizenAnimationHelper",
+        "__guid": "1592426d-9c1c-4ac3-a54b-2354d474e68c",
+        "BodyWeight": 1,
+        "EyesWeight": 1,
+        "HeadWeight": 1,
+        "LookAtEnabled": false,
+        "Target": {
+          "_type": "component",
+          "component_id": "32f343d7-e16e-45df-a609-34a76dbf10cc",
+          "go": "00d4b81e-c2fd-4a9a-aa4f-62c4f211ac52",
+          "component_type": "SkinnedModelRenderer"
+        }
+      },
+      {
+        "__type": "CharacterController",
+        "__guid": "a33c526d-f883-4c4d-a65b-269034468e09",
+        "Acceleration": 10,
+        "Bounciness": 0.3,
+        "GroundAngle": 45,
+        "Height": 64,
+        "IgnoreLayers": "",
+        "Radius": 16,
+        "StepHeight": 18
+      }
+    ],
+    "Children": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__version": 1,
+  "__references": []
+}
