@@ -1,4 +1,4 @@
-![](https://dcbadge.limes.pink/api/server/https://discord.gg/Mg8TWbxBxZ)
+<a target="_blank" href="https://discord.gg/Mg8TWbxBxZ"><img src="https://dcbadge.limes.pink/api/server/Mg8TWbxBxZ" alt="" /></a>
 # Souls Box
 ![01f8e93e-09a2-492d-8275-c860a640e26f-ezgif com-resize](https://github.com/user-attachments/assets/4663a176-08ea-44c0-8030-8d79652938d5)
 
