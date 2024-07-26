@@ -108,6 +108,196 @@
           "Static": false
         }
       ]
+    },
+    {
+      "__guid": "eefd129f-4431-46ad-abb6-1e4b69686b44",
+      "Flags": 0,
+      "Name": "Cube (1)",
+      "Position": "474.3802,137.1335,-13.58858",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "7fd68911-450e-462a-8e55-9e76177f2183",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "32adb404-5c55-4bcc-8be1-28c22b6edb25",
+          "__enabled": false,
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "b388708b-39ed-4eff-978a-698245daddf3",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false
+        }
+      ]
+    },
+    {
+      "__guid": "c00891ef-9463-4ed9-a8f6-b610f9969e00",
+      "Flags": 0,
+      "Name": "Cube (2)",
+      "Position": "474.3802,58.15625,-21.60059",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "ae184b8f-9dec-4075-88f5-5e7d1b8a0175",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "fbcf3fea-f639-4be8-aef8-ae88348904de",
+          "__enabled": false,
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "97e82005-f146-4d6d-b92f-573f310a64db",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false
+        }
+      ]
+    },
+    {
+      "__guid": "3a0166f7-74e2-4993-a834-25d429fac9e1",
+      "Flags": 0,
+      "Name": "Cube (3)",
+      "Position": "474.3802,229.2875,-22.42855",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "2decf45c-2127-4e88-99e2-49e04823fee7",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "d8d54aa9-4ea1-484d-86f1-119df84b861b",
+          "__enabled": false,
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "94a22c14-5cb2-488a-8448-73c704b9c6a7",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false
+        }
+      ]
+    },
+    {
+      "__guid": "ab062aee-78ef-49c6-a9eb-77f1a3413c7d",
+      "Flags": 0,
+      "Name": "Cube (4)",
+      "Position": "351.9351,229.2875,-20.67857",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "e32c8753-0a68-4c63-8b1f-aa071fab67d0",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "31377bf9-85f8-42a5-b85a-49bba86b5ce8",
+          "__enabled": false,
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "254fb45b-6c01-47db-ae5b-917b947f4859",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false
+        }
+      ]
+    },
+    {
+      "__guid": "6ca0eb87-da27-4db2-a84b-70e35507035b",
+      "Flags": 0,
+      "Name": "Cube (5)",
+      "Position": "292.6894,229.2875,-9.537959",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "2d3eeb87-c4f4-4472-8c55-73cd28f91ff4",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "fc0027f2-4d39-45b7-b669-92f4b42a03f0",
+          "__enabled": false,
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "ac1647bd-4344-4676-bd2d-c763cb6dcebd",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false
+        }
+      ]
     }
   ],
   "SceneProperties": {
